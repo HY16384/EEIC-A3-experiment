@@ -1,0 +1,110 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon Apr 20 13:38:22 2026
+| Host         : haya6174 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file ram_b_control_sets_placed.rpt
+| Design       : ram_b
+| Device       : xc7a200t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    32 |
+|    Minimum number of control sets                        |    32 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |     0 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    32 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    32 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------------+------------------+------------------+----------------+--------------+
+|  Clock Signal  |         Enable Signal         | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-------------------------------+------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | mem_reg_640_703_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_64_127_0_2_i_1_n_0    |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_704_767_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_768_831_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_832_895_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_896_959_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_960_1023_0_2_i_1_n_0  |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_0_63_0_2_i_1_n_0      |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1024_1087_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1088_1151_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1152_1215_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1216_1279_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_128_191_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1280_1343_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1344_1407_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1472_1535_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1408_1471_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1600_1663_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1536_1599_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1664_1727_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1728_1791_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1792_1855_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1856_1919_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_192_255_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1920_1983_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_1984_2047_0_2_i_1_n_0 |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_256_319_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_320_383_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_384_447_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_512_575_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_448_511_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
+|  clk_IBUF_BUFG | mem_reg_576_639_0_2_i_1_n_0   |                  |               11 |             44 |         4.00 |
++----------------+-------------------------------+------------------+------------------+----------------+--------------+
+
+

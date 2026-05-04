@@ -1,0 +1,25 @@
+`define CMP_BIT_AEB 15
+`define CMP_BIT_AGB 14
+`define CMP_BIT_ALB 13
+`define CMP_BIT_AZ 12
+`define CMP_BIT_BZ 11
+`define CMP_BIT_UNUSED0 10
+`define CMP_BIT_UNUSED1 9
+`define CMP_BIT_UNUSED2 8
+`define CMP_BIT_UNUSED3 7
+`define CMP_BIT_UNUSED4 6
+`define CMP_BIT_UNUSED5 5
+`define CMP_BIT_UNUSED6 4
+`define CMP_BIT_UNUSED7 3
+`define CMP_BIT_UNUSED8 2
+`define CMP_BIT_UNUSED9 1
+`define CMP_BIT_UNUSED10 0
+
+`define CMP_FLAG_EQ 3'b000
+`define CMP_FLAG_ANB 3'b001
+`define CMP_FLAG_AZ 3'b010
+`define CMP_FLAG_BZ 3'b011
+`define CMP_FLAG_ANZ 3'b100
+`define CMP_FLAG_BNZ 3'b101
+`define CMP_FLAG_AGB 3'b110
+`define CMP_FLAG_ALB 3'b111

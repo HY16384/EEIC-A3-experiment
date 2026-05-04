@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="alu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="alu_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="988.001 ns"></ZoomEndTime>
+      <Cursor1Time time="694.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/alu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/we_out" type="logic">
+      <obj_property name="ElementShortName">we_out</obj_property>
+      <obj_property name="ObjectShortName">we_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/jump" type="logic">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/pc" type="array">
+      <obj_property name="ElementShortName">pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/dataA" type="array">
+      <obj_property name="ElementShortName">dataA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/dataB" type="array">
+      <obj_property name="ElementShortName">dataB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataB[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/dataResult" type="array">
+      <obj_property name="ElementShortName">dataResult[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataResult[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/dataImm" type="array">
+      <obj_property name="ElementShortName">dataImm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataImm[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/addrD" type="array">
+      <obj_property name="ElementShortName">addrD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addrD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/addrB" type="array">
+      <obj_property name="ElementShortName">addrB[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addrB[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/aluop" type="array">
+      <obj_property name="ElementShortName">aluop[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_tb/addrA" type="array">
+      <obj_property name="ElementShortName">addrA[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addrA[2:0]</obj_property>
+   </wvobject>
+</wave_config>

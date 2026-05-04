@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ram_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ram_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="19.120001 us"></ZoomEndTime>
+      <Cursor1Time time="0.985000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/ram_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/en" type="array">
+      <obj_property name="ElementShortName">en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/flag" type="logic">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/we_out" type="logic">
+      <obj_property name="ElementShortName">we_out</obj_property>
+      <obj_property name="ObjectShortName">we_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/jump" type="logic">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/pc" type="array">
+      <obj_property name="ElementShortName">pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/dataA" type="array">
+      <obj_property name="ElementShortName">dataA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/dataB" type="array">
+      <obj_property name="ElementShortName">dataB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataB[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/dataInst" type="array">
+      <obj_property name="ElementShortName">dataInst[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataInst[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/dataResult" type="array">
+      <obj_property name="ElementShortName">dataResult[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataResult[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/dataImm" type="array">
+      <obj_property name="ElementShortName">dataImm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataImm[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/aluop" type="array">
+      <obj_property name="ElementShortName">aluop[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/selD" type="array">
+      <obj_property name="ElementShortName">selD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">selD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/selA" type="array">
+      <obj_property name="ElementShortName">selA[2:0]</obj_property>
+      <obj_property name="ObjectShortName">selA[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/selB" type="array">
+      <obj_property name="ElementShortName">selB[2:0]</obj_property>
+      <obj_property name="ObjectShortName">selB[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/en_inst" type="logic">
+      <obj_property name="ElementShortName">en_inst</obj_property>
+      <obj_property name="ObjectShortName">en_inst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/en_reg_read" type="logic">
+      <obj_property name="ElementShortName">en_reg_read</obj_property>
+      <obj_property name="ObjectShortName">en_reg_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/en_alu" type="logic">
+      <obj_property name="ElementShortName">en_alu</obj_property>
+      <obj_property name="ObjectShortName">en_alu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/en_reg_write" type="logic">
+      <obj_property name="ElementShortName">en_reg_write</obj_property>
+      <obj_property name="ObjectShortName">en_reg_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/new_pc" type="array">
+      <obj_property name="ElementShortName">new_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">new_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/pc_opcode" type="array">
+      <obj_property name="ElementShortName">pc_opcode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_opcode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/ram_we" type="logic">
+      <obj_property name="ElementShortName">ram_we</obj_property>
+      <obj_property name="ObjectShortName">ram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/ram_wData" type="array">
+      <obj_property name="ElementShortName">ram_wData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_wData[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/ram_rData" type="array">
+      <obj_property name="ElementShortName">ram_rData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_rData[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/ram_wAddr" type="array">
+      <obj_property name="ElementShortName">ram_wAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_wAddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ram_tb/ram_rAddr" type="array">
+      <obj_property name="ElementShortName">ram_rAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_rAddr[31:0]</obj_property>
+   </wvobject>
+</wave_config>

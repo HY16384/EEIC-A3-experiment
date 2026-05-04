@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bram_adder_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bram_adder_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9,999,999 ps"></ZoomStartTime>
+      <ZoomEndTime time="10,000,008 ps"></ZoomEndTime>
+      <Cursor1Time time="10,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="184"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/bram_adder_test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_adder_test/nrst" type="logic">
+      <obj_property name="ElementShortName">nrst</obj_property>
+      <obj_property name="ObjectShortName">nrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_adder_test/count" type="array">
+      <obj_property name="ElementShortName">count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_adder_test/data" type="array">
+      <obj_property name="ElementShortName">data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_adder_test/ref_data" type="array">
+      <obj_property name="ElementShortName">ref_data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ref_data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_adder_test/of" type="logic">
+      <obj_property name="ElementShortName">of</obj_property>
+      <obj_property name="ObjectShortName">of</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_adder_test/diff" type="logic">
+      <obj_property name="ElementShortName">diff</obj_property>
+      <obj_property name="ObjectShortName">diff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_adder_test/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
