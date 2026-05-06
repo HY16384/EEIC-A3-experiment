@@ -1,0 +1,85 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu May  7 01:08:59 2026
+| Host         : haya6174 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file cpu_control_sets_placed.rpt
+| Design       : cpu
+| Device       : xc7a200t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     7 |
+|    Minimum number of control sets                        |     7 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    12 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     7 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              18 |            4 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               5 |            2 |
+| Yes          | No                    | No                     |              69 |           21 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              16 |            5 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+---------------------+-----------------------+------------------+----------------+--------------+
+|   Clock Signal   |    Enable Signal    |    Set/Reset Signal   | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------+---------------------+-----------------------+------------------+----------------+--------------+
+|  I_clk_IBUF_BUFG |                     | f0/O_state[4]_i_1_n_0 |                2 |              5 |         2.50 |
+|  I_clk_IBUF_BUFG | f0/O_state_reg[4]_0 | I_rst_IBUF            |                5 |             16 |         3.20 |
+|  I_clk_IBUF_BUFG | i0/E[0]             |                       |               11 |             16 |         1.45 |
+|  I_clk_IBUF_BUFG | f0/Q[0]             |                       |                4 |             21 |         5.25 |
+|  I_clk_IBUF_BUFG | f0/E[0]             |                       |                6 |             32 |         5.33 |
+|  I_clk_IBUF_BUFG |                     |                       |                4 |             42 |        10.50 |
+|  I_clk_IBUF_BUFG | a0/O_regDWe_reg_0   |                       |                6 |             48 |         8.00 |
++------------------+---------------------+-----------------------+------------------+----------------+--------------+
+
+
