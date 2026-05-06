@@ -76,6 +76,11 @@ module alu(
                     O_needJump <= 1'b0;
                 end
                 
+                `OPCODE_NOT: begin
+                    O_dataResult <= ~I_dataA;
+                    O_needJump <= 1'b0;
+                end
+                
                 `OPCODE_READ: begin
                 end
                 
