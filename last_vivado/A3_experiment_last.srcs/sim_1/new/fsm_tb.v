@@ -99,6 +99,9 @@ module fsm_tb;
         
         dataInst <= {`OPCODE_OR, 3'b101, 1'b0, 3'b000, 3'b011, 2'b0};
         #1000;
+        
+        dataInst <= {`OPCODE_OR, 3'b101, 1'b0, 3'b101, 3'b101, 2'b0};
+        #1000;
     end
         
 endmodule
